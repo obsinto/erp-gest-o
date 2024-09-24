@@ -1,0 +1,58 @@
+CRITICAL - 2024-07-27 23:09:36 --> ErrorException: unlink(assets/img/login/arquivo-imagem-de-fundo-login.jpg): No such file or directory
+in APPPATH/Controllers/Configuracoes.php on line 180.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Configuracoes.php(180): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Configuracoes->deleteImagemDeDundoLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 23:09:36 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /www/wwwroot/edit-gestao.nxsistemas.com.br/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/BaseExceptionHandler.php(258): include()
+#1 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+unlink(assets/img/login/arquivo-imagem-de-fundo-login.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/edit-gestao.nxsistemas.com.br/app/Controllers/Configuracoes.php(180): unlink()
+#2 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(941): App\Controllers\Configuracoes->deleteImagemDeDundoLogin()
+#3 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#4 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/edit-gestao.nxsistemas.com.br/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2024-07-27 23:14:22 --> ErrorException: unlink(assets/img/login20240727231216.jpg): No such file or directory
+in APPPATH/Controllers/Configuracoes.php on line 144.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Configuracoes.php(144): unlink()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Configuracoes->storeLogin()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-27 23:14:22 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in /www/wwwroot/edit-gestao.nxsistemas.com.br/app/Views/errors/html/error_exception.php:33
+Stack trace:
+#0 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/BaseExceptionHandler.php(258): include()
+#1 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render()
+#3 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/Debug/Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle()
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler()
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+unlink(assets/img/login20240727231216.jpg): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /www/wwwroot/edit-gestao.nxsistemas.com.br/app/Controllers/Configuracoes.php(144): unlink()
+#2 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(941): App\Controllers\Configuracoes->storeLogin()
+#3 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#4 /www/wwwroot/edit-gestao.nxsistemas.com.br/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#5 /www/wwwroot/edit-gestao.nxsistemas.com.br/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#6 {main}
+in APPPATH/Views/errors/html/error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
